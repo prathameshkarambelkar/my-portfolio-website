@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 const Project = (props) => {
-    const tech = props.technology;
-    const listItems = tech.map((stack) => <li>{stack}</li>);
-  
+  const tech = props.technology;
+  const listItems = tech.map((stack) => <li>{stack}</li>);
+
   return (
     <div className="border-2 border-white text-white  rounded-md p-2 m-6  ">
       <img
@@ -17,7 +17,7 @@ const Project = (props) => {
       <h2 className="ml-2">Tech-Stack Used:</h2>
       <ul className="ml-5 list-disc">{listItems}</ul>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;

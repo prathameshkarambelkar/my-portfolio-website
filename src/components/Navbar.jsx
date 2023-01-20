@@ -9,7 +9,7 @@ export default function Navbar() {
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#">
-              <h2 className="text-2xl font-bold">PK</h2>
+              <h2 className="hover:transition-transform hover:scale-150 ml-2 text-2xl font-bold">PK</h2>
             </a>
             <div className="md:hidden">
               <button
@@ -57,22 +57,34 @@ export default function Navbar() {
           >
             <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#" className="transition duration-75">Home</a>
+                <a href="#" className="transition-delay-300">
+                  Home
+                </a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#AboutMe" className="transition duration-75">About Me</a>
+                <a href="#AboutMe" className="transition duration-1000">
+                  About Me
+                </a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#Skills" className="transition duration-75" >Skills</a>
+                <a href="#Skills" className="transition duration-300 delay-500">
+                  Skills
+                </a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#Projects" className="transition duration-75">Projects</a>
+                <a href="#Projects" className="transition duration-75">
+                  Projects
+                </a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#Talks" className="transition duration-100">Talks</a>
+                <a href="#Talks" className="transition duration-100">
+                  Talks
+                </a>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#ContactMe" className="transition duration-100">Lets Connect!</a>
+                <a href="#ContactMe" className="transition duration-1000">
+                  Lets Connect!
+                </a>
               </li>
             </ul>
           </div>
