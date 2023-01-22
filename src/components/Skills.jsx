@@ -5,7 +5,7 @@ const Skills = () => {
     <>
       <section
         id="Skills"
-        className="container flex flex-col justify-center items-center h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/src/assets/SkillsSmall.png')] lg:bg-[url('/src/assets/Skills.png')] md:bg-[url('/src/assets/Skills.png')] "
+        className="container flex flex-col justify-center items-center h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/SkillsSmall.png')] lg:bg-[url('/Skills.png')] md:bg-[url('/Skills.png')] "
       >
         <div className="border-2 rounded-md  border-blue-500 md:w-1/2 md:md:p-6 p-4 m-3 md:text-xl hover:border-2 hover:border-blue-500">
           <h1 className="text-md">

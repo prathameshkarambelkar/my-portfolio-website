@@ -5,7 +5,7 @@ const ContaceMe = () => {
     <>
       <section
         id="ContactMe"
-        className="flex justify-center items-center h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/src/assets/ContactMeSmall.png')] lg:bg-[url('/src/assets/ContactMe1.png')] md:bg-[url('/src/assets/ContactMe1.png')] "
+        className="flex justify-center items-center h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/ContactMeSmall.png')] lg:bg-[url('/ContactMe1.png')] md:bg-[url('/ContactMe1.png')] "
       >
         <div></div>
         <div>

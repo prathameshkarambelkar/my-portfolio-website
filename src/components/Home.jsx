@@ -5,14 +5,14 @@ export const Home = () => {
     <>
       <section
         id="Home"
-        className="container  flex flex-col items-center  h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/src/assets/HomeSmall.png')] lg:bg-[url('/src/assets/Home.png')] md:bg-[url('/src/assets/Home.png')] "
+        className="container  flex flex-col items-center  h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/HomeSmall.png')] lg:bg-[url('.../Home.png')] md:bg-[url('/Home.png')] "
       >
         <img
           className="rounded-full border-2 hover:border-green-600 border-black mt-28 items-center "
           alt="Profile Pic"
           width={200}
           height={200}
-          src="/src/assets/developer_male.jpg"
+          src="/developer_male.jpg"
         />
         <div className="writer inline-block">
             <div className="writer-text mt-4  flex overflow-hidden border-r-4 text-black ">
