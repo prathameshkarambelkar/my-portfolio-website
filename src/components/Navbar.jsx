@@ -1,15 +1,21 @@
 import { useState } from "react";
-
+import { Link, animateScroll as scroll } from "react-scroll";
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
+  const scrollToTop = () => {
+    scroll.scrollToTop;
+  };
 
+  // backdrop-filter backdrop-blur-lg bg-opacity-20
   return (
-    <nav className="w-full bg-white shadow">
+    <nav className="w-full   bg-white shadow">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-3 md:py-5 md:block">
             <a href="#">
-              <h2 className="hover:transition-transform hover:scale-150 ml-2 text-2xl font-bold">PK</h2>
+              <h2 className="hover:transition-transform hover:scale-150 ml-2 text-2xl font-bold">
+                PK
+              </h2>
             </a>
             <div className="md:hidden">
               <button
@@ -51,40 +57,76 @@ export default function Navbar() {
         </div>
         <div>
           <div
-            className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+            className={`flex-1  justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <ul className="items-center nav-items cursor-pointer justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#" className="transition-delay-300">
+              <Link
+                  activeClass="active"
+                  to="Home"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#AboutMe" className="transition duration-1000">
+                <Link
+                  activeClass="active"
+                  to="AboutMe"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
                   About Me
-                </a>
+                </Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#Skills" className="transition duration-300 delay-500">
+                <Link
+                  activeClass="active"
+                  to="Skills"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
                   Skills
-                </a>
+                </Link>
               </li>
-              <li className="text-gray-600 hover:text-blue-600">
-                <a href="#Projects" className="transition duration-75">
+              <li className="  text-gray-600 hover:text-blue-600">
+                <Link
+                  activeClass="active"
+                  to="Projects"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
                   Projects
-                </a>
+                </Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#Talks" className="transition duration-100">
+                <Link
+                  activeClass="active"
+                  to="Talks"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
                   Talks
-                </a>
+                </Link>
               </li>
               <li className="text-gray-600 hover:text-blue-600">
-                <a href="#ContactMe" className="transition duration-1000">
-                  Lets Connect!
-                </a>
+                <Link
+                  activeClass="active"
+                  to="ContactMe"
+                  spy={true}
+                  smooth={true}
+                  duration={500}
+                >
+                  Contact Me
+                </Link>
               </li>
             </ul>
           </div>
