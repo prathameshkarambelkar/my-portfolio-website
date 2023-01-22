@@ -9,7 +9,7 @@ const Project = (props) => {
       <img
         width={300}
         height={300}
-        className="p-4  "
+        className="p-4"
         src="https://i.pinimg.com/474x/09/65/b9/0965b93f250920c1ee8a9a2b0ba0c291.jpg"
       />
       <h1 className="underline text-center">{props.name}</h1>
