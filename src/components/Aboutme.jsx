@@ -19,10 +19,16 @@ const Aboutme = () => {
           <br />
           <h1 className="text-md  text-white">
             I am passionate about creating visually appealing and user-friendly
-            websites. Also I like to explore different technologies. 
+            websites. Also I like to explore different technologies.
           </h1>
           <h1 className="text-md text-white"></h1>
         </div>
+        <a href="https://prathameshkarambelkar.github.io/resume/">
+          
+          <button className="text-white m-4 p-3 hover:scale-125 hover:border-blue-400 border-2 rounded-md">
+            Resume
+          </button>
+        </a>
       </section>
     </>
   );
