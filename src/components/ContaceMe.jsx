@@ -5,14 +5,13 @@ const ContaceMe = () => {
     <>
       <section
         id="ContactMe"
-        className="flex justify-center items-center h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/ContactMeSmall.png')] lg:bg-[url('/ContactMe1.png')] md:bg-[url('/ContactMe1.png')] "
+        className="flex flex-col justify-center items-center h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/ContactMeSmall.png')] lg:bg-[url('/ContactMe1.png')] md:bg-[url('/ContactMe1.png')] "
       >
-        <div></div>
-        <div>
+        <div className="m-auto">  
           <h1 className="text-white text-center text-4xl">
             Prathamesh Karambelkar
           </h1>
-          <div className=" border-2 border-white  flex  rounded-full p-1 m-2 justify-center items-center">
+          <div className=" border-2 border-white  flex  rounded-full p-1 m-2 mx-6 justify-center items-center">
             <a
               href="https://twitter.com/PrathameshK_69"
               target="_blank"
@@ -85,6 +84,10 @@ const ContaceMe = () => {
             </a>
           </div>
         </div>
+
+        <h1 className="text-white p-2  text-center">
+          Prathamesh Karambelkar &#169; {new Date().getFullYear()}{" "}
+        </h1>
       </section>
     </>
   );
