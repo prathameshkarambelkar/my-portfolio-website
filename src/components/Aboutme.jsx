@@ -24,7 +24,7 @@ const Aboutme = () => {
           <h1 className="text-md text-white">I believe in learning in public and share my learning.</h1>
           
         </div>
-        <a href="https://prathameshkarambelkar.github.io/resume/">
+        <a href="https://github.com/prathameshkarambelkar/resume/raw/main/PrathameshKarambelkarResume.pdf">
           <button className="text-white m-4 p-3 hover:scale-125 hover:border-blue-400 border-2 rounded-md">
             Resume
           </button>
