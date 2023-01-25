@@ -5,7 +5,7 @@ const ContaceMe = () => {
     <>
       <section
         id="ContactMe"
-        className="flex flex-col justify-center items-center h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/ContactMeSmall.png')] lg:bg-[url('/ContactMe1.png')] md:bg-[url('/ContactMe1.png')] "
+        className="flex flex-col justify-center items-center min-h-screen m-auto  bg-fixed bg-center bg-cover bg-[url('/ContactMeSmall.png')] lg:bg-[url('/ContactMe1.png')] md:bg-[url('/ContactMe1.png')] "
       >
         <div className="m-auto">  
           <h1 className="text-white text-center text-4xl">

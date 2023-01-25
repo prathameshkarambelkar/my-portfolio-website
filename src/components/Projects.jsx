@@ -6,7 +6,7 @@ export const Projects = () => {
     <>
       <section
         id="Projects"
-        className="lg:flex-row sm:flex p-2  sm:flex-col sm:items-center sm:justify-center  sm:m-auto  bg-fixed bg-center bg-cover md:bg-[url('/Projects.png')]  bg-[url('/ProjectsSmall.png')] "
+        className="lg:flex-row sm:flex p-2  sm:flex-col sm:items-center sm:justify-center  sm:m-auto min-h-screen  bg-fixed bg-center bg-cover md:bg-[url('/Projects.png')]  bg-[url('/ProjectsSmall.png')] "
       >
         <Project
           image={"/home.png"}
