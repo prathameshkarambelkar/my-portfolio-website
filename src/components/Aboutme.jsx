@@ -7,14 +7,14 @@ const Aboutme = () => {
         id="AboutMe"
         className=" flex flex-col items-center justify-center  h-screen bg-fixed bg-center bg-cover bg-[url('/AboutMeSmall.png')]  md:bg-[url('/AboutMe1.png')]"
       >
-        <div className="p-4  mt-6 mx-4 border-2 border-white rounded-md">
+        <div className="p-4  mt-6 mx-4 border-2 md:text-center border-white rounded-md">
           <h1 className="text-white text-md">
             Hello, I'm Prathamesh, a third year grad pursuing Computer
             Engineering , a software developer trying to solve real world
             problems!
           </h1>
           <h1 className="text-md  text-white">
-            I usually work on Web Development and Android Development.{" "}
+            I usually work on Web Development and Android Development.
           </h1>
           <br />
           <h1 className="text-md  text-white">

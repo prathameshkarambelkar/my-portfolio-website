@@ -32,7 +32,7 @@ export const Projects = () => {
           image={"/portfolio-website.png"}
           name={"Portfolio Website"}
           description={
-            "Designed and buils my own porfolio website using React.js and Tailwind CSS. Implemented parallex effects. "
+            "Designed and built my own porfolio website using React.js and Tailwind CSS. Implemented parallex effects. "
           }
           technology={["Next.js", "Tailwind Css"]}
           githubLink={"https://github.com/prathameshkarambelkar/my-portfolio-website"}
@@ -46,7 +46,7 @@ export const Projects = () => {
           }
           technology={["Next.js", "Tailwind Css"]}
           githubLink={"https://github.com/prathameshkarambelkar/College-Forum"}
-          liveLink={"#"}
+          
         />
         <Project
           image={"/lookItUp.jpg"}
@@ -56,7 +56,7 @@ export const Projects = () => {
           }
           technology={["Next.js", "Tailwind Css"]}
           githubLink={"https://github.com/prathameshkarambelkar/lookitup"}
-          liveLink={"#"}
+          
         />
       </section>
     </>
