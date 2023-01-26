@@ -19,7 +19,7 @@ export default function Navbar() {
             </a>
             <div className="md:hidden">
               <button
-                className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
+                className="p-2 text-gray-700 rounded-md outline-none  focus:border-gray-400 focus:border"
                 onClick={() => setNavbar(!navbar)}
               >
                 {navbar ? (
@@ -61,9 +61,9 @@ export default function Navbar() {
               navbar ? "block" : "hidden"
             }`}
           >
-            <ul className="items-center nav-items cursor-pointer justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
+            <ul className="items-center nav-items cursor-pointer  justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
               <li className="text-gray-600 hover:text-blue-600">
-              <Link
+                <Link
                   activeClass="active"
                   to="Home"
                   spy={true}
