@@ -10,7 +10,7 @@ const Skills = () => {
         <div className="border-2 rounded-md  border-blue-500 md:w-1/2 md:md:p-6 p-4 m-3 md:text-xl hover:border-2 hover:border-blue-500">
           <h1 className="text-md">
             <span className="font-bold text-[#111827] ">Web: </span>
-            Html,CSS,JavaScript,ReactJs,NextJs, TailwindCSS
+            Html, CSS, JavaScript, ReactJs, NextJs, TailwindCSS
           </h1>
         </div>
         <div className="border-2 border-blue-500 rounded-md w-1/2 md:p-6 p-4 m-3 md:text-xl hover:border-2 hover:border-blue-500">
@@ -22,7 +22,7 @@ const Skills = () => {
         <div className="border-2 border-blue-500 rounded-md w-1/2 md:p-6 p-4 m-3 md:text-xl hover:border-2 hover:border-blue-500">
           <h1 className="text-md">
             <span className="font-bold text-[#111827]">Languages: </span>
-            C,C++,Java,Kotlin
+            C, C++, Java, Kotlin
           </h1>
         </div>
         <div className="border-2 border-blue-500 rounded-md w-1/2 md:p-6 p-4 m-3 md:text-xl hover:border-2 hover:border-blue-500">

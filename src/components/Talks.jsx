@@ -18,9 +18,6 @@ const Talks = () => {
             "Took a workshop on Android App Development in college which was attended by over 40 students. Introduced them to Android App Development, Basics of kotlin and gave them short tour of Android    Studio. Also created a simple Number Guessing Game to demonstrate how to build apps. "
           }
         />
-
-
-
       </section>
     </>
   );

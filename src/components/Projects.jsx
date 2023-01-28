@@ -15,7 +15,7 @@ export const Projects = () => {
             "Freelance Project done using Next.js and Tailwind CSS. The website was designed from scratch and built moblie-first as per client requirement. "
           }
           technology={["Next.js", "Tailwind Css"]}
-          githubLink={""}
+          
           liveLink={"https://torna-mutton.vercel.app/"}
         />
         <Project
@@ -25,7 +25,7 @@ export const Projects = () => {
             "Freelance Project done using Next.js and Tailwind CSS. THe design of the website was given by client in figma. The website was created mobile-first as per requirement. "
           }
           technology={["Next.js", "Tailwind Css"]}
-          githubLink={""}
+          githubLink={"https://github.com/prathameshkarambelkar/nirwana-resort"}
           liveLink={"https://nirwana-resort.vercel.app/"}
         />
         <Project
